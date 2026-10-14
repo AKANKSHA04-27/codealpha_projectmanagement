@@ -1,0 +1,22 @@
+{
+  "name": "taskflow-project-management",
+  "version": "1.0.0",
+  "description": "A collaborative project management tool with Kanban boards, real-time updates, and team collaboration",
+  "private": true,
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "cd client && npm run dev",
+    "dev": "node server/index.js",
+    "build": "cd client && npm run build",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}
